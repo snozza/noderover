@@ -33,6 +33,13 @@ Node.js, JavaScript and Mocha were all somewhat familar to the team members. The
 - [ ] Add an IP camera in order to use the video stream code that was incorporated.
 - [ ] Write code the the built in engine Encoders on the rover (for precision control).
 
+### Collaborators
+Andrew Snead - (http://www.github.com/snozza)
+Hadi Chalabi - (http://www.github.com/Schlap)
+Zeeshan Rasool - (http://www.github.com/zrasool88)
+Colin S - (http://www.github.com/mala23)
+Andrew Harrison - (http://www.github.com/AndrewHarrison)
+
 ### Instructions
 
 The live version of the site will be launched shortly.
