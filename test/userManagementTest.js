@@ -28,9 +28,9 @@ describe('Users', function() {
 
     after(function(done) {
             browser.close()
-        //     mongoose.connection.db.dropDatabase(function() {
-        //         mongoose.connection.close(done);
-        // });
+            mongoose.connection.db.dropDatabase(function() {
+                mongoose.connection.close(done);
+        });
     });
 
 

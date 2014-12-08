@@ -18,7 +18,7 @@ function validLogin(){
             return false;
         }
     }
-});
+  });
 }
 
 function init() {

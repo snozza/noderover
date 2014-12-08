@@ -36,8 +36,8 @@ Controller.prototype.listenOnGyro = function(socket) {
     _this.gyroToggle.reverse()[1](_this);
     console.log($(document).find('#gyroText').text())      
    });
-  })
-}
+  });
+};
 
 
 Controller.prototype.listenOnVision = function(socket) {
@@ -111,41 +111,39 @@ Controller.prototype.onLookLeft = function(socket) {
   });
 };
 
-// Controller.prototype.onLookLeft = function(socket) {
-//   $(document).on('mousedown touchstart', '#look-up', function() {
-//     socket.emit('look-left');
-//   });
-// };
+Controller.prototype.onLookUp = function(socket) {
+  $(document).on('mousedown touchstart', '#look-up', function() {
+    socket.emit('look-up');
+  });
+};
 
-// Controller.prototype.onLookLeft = function(socket) {
-//   $(document).on('mousedown touchstart', '#look-down', function() {
-//     socket.emit('look-down');
-//   });
-// };
+Controller.prototype.onLookDown = function(socket) {
+  $(document).on('mousedown touchstart', '#look-down', function() {
+    socket.emit('look-down');
+  });
+};
 
 Controller.prototype.onKeyPress = function(socket) {
-  _this = this;
+  var _this = this;
   $(document).on('keydown', function(event) {
     var key = event.which;
     if (_this.keys.indexOf(key) > -1) {
-      console.log("made it here")
       socket.emit('keypress', key);
     }
   });
-}
+};
 
 Controller.prototype.onKeyUp = function(socket) {
-  _this = this;
+  var _this = this;
   $(document).on('keyup', function(event) {
     var key = event.which;
     if (_this.keys.indexOf(key) > -1) {
       socket.emit('brake');
     }
   });
-}
+};
 
 Controller.prototype.gyroControlOn = function(_this) {
-  console.log('yes')
   $(document).find('#gyroText').text('Gyro Off');
   var status = 0;
   var x;
@@ -164,13 +162,12 @@ Controller.prototype.gyroControlOn = function(_this) {
     else if (z < 15) {
       _this.socket.emit('claw-up');
     }
-  })
-}
+  });
+};
 
 
 Controller.prototype.gyroControlOff = function(_this) {
-  console.log('no')
   $(document).find('#gyroText').text('Gyro On');
-  gyro.stopTracking()
+  gyro.stopTracking();
 }
 

@@ -50,7 +50,7 @@ function Server() {
   this.server = server
   this.arduinoTcp = null;
   this.tcpServer = null;
- }
+}
 
 Server.prototype.init = function(port) {
   this.setEventHandlers();
@@ -64,11 +64,11 @@ Server.prototype.testRun = function(port, client) {
   var _this = this;
   before(function(done) {
     _this.setEventHandlers();
-  _this._server = _this.server.listen(port, function() {
+    _this._server = _this.server.listen(port, function() {
     console.log("listening on " + port);
-  });
+    });
     setTimeout(done(), 4000);
-  })
+  });
   
   after(function(done) {
     _this.destroy(done);
@@ -77,7 +77,7 @@ Server.prototype.testRun = function(port, client) {
 
 Server.prototype.destroy = function(cback) {
   this._server.close(cback || function() {})
-}
+};
 
 Server.prototype.setEventHandlers = function() {
   var _this = this;
@@ -113,7 +113,7 @@ Server.prototype.tcpServerSetup = function() {
     console.log('tcp server running on port 1337');
   });
   this.tcpServerListen();
-}
+};
 
 Server.prototype.tcpServerListen = function() {
   _this = this
@@ -131,7 +131,7 @@ Server.prototype.tcpServerListen = function() {
     }
   });
   this.tcpServer.listen(1337);
-}
+};
 
 if (!module.parent) {
   new Server().init(port)

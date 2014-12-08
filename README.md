@@ -67,3 +67,23 @@ Start the node server and visit http://localhost:3000/
 
 ```
 $ node server.js
+
+```
+
+### Special Hardware
+
+Please note that the app is written for the Arduino Uno combined with a RN-XV Wifly Module, Wireless SD Shield, and a 4 motor controller shield. The code will likely need to be modified to accomodate other products.
+
+### Additional Info
+
+You will also need to sign up for a Twitter Dev account in order to use the Twitter control functionality. Add a file called config.js to the root of /node_modules/twit and add it to your .gitignore file. Then add the following (replaced with your details):
+
+```
+module.exports = {
+  consumer_key: '...'
+  , consumer_secret: '...'
+  , access_token: '...'
+  , access_token_secret: '...'
+}
+
+```
