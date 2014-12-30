@@ -13,10 +13,10 @@ describe('Hello world', function(){
 
   it('Status code of / should be 200', function(done){
     http.get('http://localhost:3000/', function(res){
-      assert(200, res.statusCode)
-      done()
-    })
-  })
+      assert(200, res.statusCode);
+      done();
+    });
+  });
 
   it('Status code of sessions should be 200', function(done) {
     request.post('http://localhost:3000/sessions', function(err, res, body) {
@@ -24,4 +24,4 @@ describe('Hello world', function(){
       done();
     });
   });
-})
+});
