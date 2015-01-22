@@ -32,6 +32,7 @@ Node.js, JavaScript and Mocha were all somewhat familar to the team members. The
 - [ ] Fix bugs - mainly the occasional server crash due to lack of TCP connection error handling.
 - [ ] Add an IP camera in order to use the video stream code that was incorporated.
 - [ ] Write code the the built in engine Encoders on the rover (for precision control).
+- [ ] Extend functionality to contorl multiple rovers
 
 ### Collaborators
 Andrew Snead - (http://www.github.com/snozza)
