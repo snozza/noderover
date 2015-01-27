@@ -3,7 +3,7 @@ Node Rover
 
 ## Node Rover
 
-![alt tag](public/tars.jpeg =300px)
+![alt tag](public/tars.jpeg =300x)
 
 
 ### Introduction
