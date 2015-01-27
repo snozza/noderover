@@ -3,6 +3,9 @@ Node Rover
 
 ## Node Rover
 
+![alt tag](public/tars.jpeg)
+
+
 ### Introduction
 
 Node Rover is a final project from Makers Academy. The original task was to build some form of robot that could be controlled wirelessely. It was decided to make a robot based on the Mars rover (4 motors with continuous tracks). The rover was built from scratch, and is controlled via a Node.js server. The goal was to have a mobile first web app which could control several aspects of the rover (motor movement, claw, camera pan tilt bracket) over wifi.
