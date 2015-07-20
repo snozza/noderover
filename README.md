@@ -8,7 +8,7 @@ Node Rover
 
 ### Introduction
 
-Node Rover is a final project from Makers Academy. The original task was to build some form of robot that could be controlled wirelessely. It was decided to make a robot based on the Mars rover (4 motors with continuous tracks). The rover was built from scratch, and is controlled via a Node.js server. The goal was to have a mobile first web app which could control several aspects of the rover (motor movement, claw, camera pan tilt bracket) over wifi.
+Task was to build some form of robot that could be controlled wirelessely. Rover is based on the Mars rover (4 motors with continuous tracks). The rover was built from scratch, and is controlled via a Node.js server. The goal was to have a mobile first web app which could control several aspects of the rover (motor movement, claw, camera pan tilt bracket) over wifi.
 
 ### Languages/Platforms/Tools
 
@@ -27,7 +27,7 @@ Node Rover is a final project from Makers Academy. The original task was to buil
 
 ### Learning Outcomes
 
-Node.js, JavaScript and Mocha were all somewhat familar to the team members. The true challenges were with the hardware (electronic wiring and related hardware knowledge), as well as programming directly to the Arduino with C. We had to take a ground up approach to physically configuring the rover, starting with simple lighting of LED lights via usb, and progressing to wireless single character commands over telnet. Eventually we had a fully fledged wifi rover that was controllable via a desktop browser, smartphone, smartphone gyrometer, and even with Twitter commands.
+Minor difficulties with the hardware (electronic wiring and related hardware knowledge), as well as programming directly to the Arduino with C. Minor issues with TCP and wirless connectivity which were eventually sorted. Ended up with a nifty rover that is controllable via desktop browser, smartphone, smartphone gyrometer, and even with Twitter commands. I call him Tars!
 
 
 ### To-do List
@@ -36,13 +36,6 @@ Node.js, JavaScript and Mocha were all somewhat familar to the team members. The
 - [ ] Add an IP camera in order to use the video stream code that was incorporated.
 - [ ] Write code the the built in engine Encoders on the rover (for precision control).
 - [ ] Extend functionality to control multiple rovers
-
-### Collaborators
-Andrew Snead - (http://www.github.com/snozza)
-Hadi Chalabi - (http://www.github.com/Schlap)
-Zeeshan Rasool - (http://www.github.com/zrasool88)
-Colin S - (http://www.github.com/mala23)
-Andrew Harrison - (http://www.github.com/AndrewHarrison)
 
 ### Instructions
 
