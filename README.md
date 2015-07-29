@@ -8,7 +8,7 @@ Node Rover
 
 ### Introduction
 
-Task was to build some form of robot that could be controlled wirelessely. Rover is based on the Mars rover (4 motors with continuous tracks). The rover was built from scratch, and is controlled via a Node.js server. The goal was to have a mobile first web app which could control several aspects of the rover (motor movement, claw, camera pan tilt bracket) over wifi.
+Wireless, remote control Mars Rover.....with a Claw!!. Rover is based on the Mars rover (4 motors with continuous tracks). The rover was built from scratch, and is controlled via a node.js backend. The goal was to have a mobile first web app which could control several aspects of the rover (motor movement, claw, camera pan tilt bracket) over wifi.
 
 ### Languages/Platforms/Tools
 
