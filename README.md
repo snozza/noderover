@@ -10,36 +10,8 @@ Node Rover
 
 Wireless, remote control Mars Rover.....with a Claw!!. Rover is based on the Mars rover (4 motors with continuous tracks). The rover was built from scratch, and is controlled via a node.js backend. The goal was to have a mobile first web app which could control several aspects of the rover (motor movement, claw, camera pan tilt bracket) over wifi.
 
-### Languages/Platforms/Tools
-
-* Node.js
-* C
-* Mocha
-* Zombie
-* MongoDB
-* Mongoose
-* Twit
-* WiFlyHQ
-* Arduino (microcontroller)
-* Johnny-Five
-* jQuery
-* JavaScript
-
-### Learning Outcomes
-
-Minor difficulties with the hardware (electronic wiring and related hardware knowledge), as well as programming directly to the Arduino with C. Minor issues with TCP and wirless connectivity which were eventually sorted. Ended up with a nifty rover that is controllable via desktop browser, smartphone, smartphone gyrometer, and even with Twitter commands. I call him Tars!
-
-
-### To-do List
-- [ ] Refactor the code. Can definitely remove a lot of duplication.
-- [ ] Fix bugs - mainly the occasional server crash due to lack of TCP connection error handling.
-- [ ] Add an IP camera in order to use the video stream code that was incorporated.
-- [ ] Write code the the built in engine Encoders on the rover (for precision control).
-- [ ] Extend functionality to control multiple rovers
 
 ### Instructions
-
-The live version of the site will be launched shortly.
 
 Clone the repository:
 
